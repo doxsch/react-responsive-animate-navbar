@@ -12,8 +12,8 @@ library.add(fab, faBars);
 const MobileNav = ({ width, logoUrl, background, navLinks, socialIcon }) => {
   let nav = useRef(null);
   const [click, setClick] = useState(false);
-  const socialLinks = socialIcon.map((icon) => (
-    <li>
+  const socialLinks = socialIcon.map((icon, i) => (
+    <li key={i}>
       <a target="_blank" href={icon.url}>
         <FontAwesomeIcon icon={icon.icon} />
       </a>
