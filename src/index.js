@@ -66,7 +66,7 @@ export const ReactNavbar = ({ color, logo, menu, social }) => {
         />
       ) : (
         <Controller>
-          <Scene triggerHook="onLeave" duration={300} pin>
+          <Scene triggerHook="onLeave" duration={300} triggerElement={null}>
             {(progress) => (
               <Timeline totalProgress={progress} paused>
                 <Tween
