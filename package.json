@@ -39,13 +39,13 @@
     "@fortawesome/react-fontawesome": "^0.1.9",
     "gsap": "^3.2.6",
     "react-gsap": "^1.2.0",
-    "react-router-dom": "^5.1.2",
     "react-scrollmagic": "^2.2.0"
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "gatsby": "^2.24.54"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

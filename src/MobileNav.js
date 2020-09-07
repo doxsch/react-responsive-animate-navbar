@@ -1,11 +1,11 @@
 import React, { useRef, useState } from "react";
-import { Link, BrowserRouter as Router } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { TweenMax, Power3 } from "gsap";
 import styles from "./MobileNav.css";
+import {Link} from "gatsby"
 
 library.add(fab, faBars);
 
@@ -53,9 +53,7 @@ const MobileNav = ({ width, logoUrl, background, navLinks, socialIcon }) => {
         <ul>
           {navLinks.map((link, i) => (
             <li key={i}>
-              <Router>
                 <Link to={link.to}>{link.name}</Link>
-              </Router>
             </li>
           ))}
         </ul>
