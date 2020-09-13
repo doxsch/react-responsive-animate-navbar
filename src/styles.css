@@ -1,5 +1,4 @@
 .header {
-  zoom: 75%;
   position: fixed;
   top: 0;
   right: 0;
@@ -39,7 +38,7 @@
 }
 
 .LogoImg {
-  height: 200px;
+  height: 100px;
 }
 
 .navLinks {
@@ -88,6 +87,7 @@
 
 .navSocial {
   width: 15vw;
+  padding-right: 1em;
 }
 
 .navSocial ul {

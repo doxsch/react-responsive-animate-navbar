@@ -70,8 +70,8 @@ export const ReactNavbar = ({ color, logo, menu, social }) => {
             {(progress) => (
               <Timeline totalProgress={progress} paused>
                 <Tween
-                  from={{ height: "150px" }}
-                  to={{ height: "80px", background: background }}
+                  from={{ height: "100px" }}
+                  to={{ height: "60px", background: background }}
                 >
                   <div className={styles.header}>
                     <div className={styles.navLogo}>
@@ -79,8 +79,8 @@ export const ReactNavbar = ({ color, logo, menu, social }) => {
                           <div className="logo-container">
                             <Timeline totalProgress={progress} paused>
                               <Tween
-                                from={{ height: "150px" }}
-                                to={{ height: "70px" }}
+                                from={{ height: "100px" }}
+                                to={{ height: "50px" }}
                               >
                                 <img
                                   className={styles.LogoImg}
